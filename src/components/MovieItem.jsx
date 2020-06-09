@@ -11,7 +11,7 @@ class MovieItem extends React.PureComponent {
     
     }
 
-    addWillWatch = (movie) => {
+    addWillWatch = movie => {
         this.setState({
             willWatch: true
         });
