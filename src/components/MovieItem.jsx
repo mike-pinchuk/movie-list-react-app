@@ -11,7 +11,7 @@ class MovieItem extends React.PureComponent {
     
     }
 
-    addWillWatch = () => {
+    addWillWatch = (movie) => {
         this.setState({
             willWatch: true
         });
@@ -40,9 +40,9 @@ class MovieItem extends React.PureComponent {
                     <div className="d-flex justify-content-between align-items-center">
                         <p className="mb-0">Rating: {movie.vote_average}</p>
                         {this.state.willWatch ?
-                            <button type="button" className="btn btn-success" onClick={this.removeWillWatch.bind(null, movie)}>
+                            <button type="button" className="btn btn-success" onClick={this.removeWillWatch.bind(this, movie)}>
                                 Remove 'Will Watch'
-                            </button> : <button type="button" className="btn btn-secondary" onClick={this.addWillWatch.bind(null, movie)}>
+                            </button> : <button type="button" className="btn btn-secondary" onClick={this.addWillWatch.bind(this, movie)}>
                                 Add 'Will Watch'
                              </button>
                         }
