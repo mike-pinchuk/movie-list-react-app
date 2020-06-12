@@ -8,10 +8,14 @@ class MovieItem extends React.PureComponent {
         this.state = {
             willWatch: false
         }
-    
+
     }
 
-    addWillWatch = movie => {
+    // componentWillUnmount() {
+    //     console.log('unmount ', this.props.movie.title)
+    // }
+
+    addWillWatch = (movie) => {
         this.setState({
             willWatch: true
         });
