@@ -1,3 +1,6 @@
+This is a simple movie list (non commercial project) with using The Movie Database API. The project was created using JavaScript, React.js and Bootstrap 4
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
