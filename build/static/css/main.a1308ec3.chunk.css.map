@@ -1,0 +1,1 @@
+{"version":3,"sources":["App.css"],"names":[],"mappings":"AAAA,KACI,uBACJ,CAEA,UACI,cACJ","file":"main.a1308ec3.chunk.css","sourcesContent":["body {\r\n    background-color: orange;\r\n}\r\n\r\n.nav-link {\r\n    cursor: pointer;\r\n}\r\n\r\n"]}
