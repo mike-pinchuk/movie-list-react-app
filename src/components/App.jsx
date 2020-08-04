@@ -6,6 +6,7 @@ import { API_URL, API_KEY_3 } from '../utils/api'
 import MovieTabs from './MovieTabs'
 import '../App.css'
 
+
 //UI = fn(state, props)
 // console.log(moviesData)
 
